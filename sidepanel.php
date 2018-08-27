@@ -132,8 +132,8 @@
 		</div>
 		<div id="bottom-bar">
       <button id="addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i></button>
-            <a href="settings.php"><button id="settings"><i class="fa fa-cog fa-spin" aria-hidden="true"></i></button></a>
-            <a href="settings.php"><button id="settings"><i class="fa fa-cog fa-spin" aria-hidden="true"></i> </button></a>
+            <a href="settings.php"><button id="settings"><i class="fa fa-users" aria-hidden="true"></i></button></a>
+            <a href="settings.php"><button id="settings"><i class="fa fa-archive" aria-hidden="true"></i> </button></a>
             <a href="settings.php"><button id="settings"><i class="fa fa-cog fa-spin" aria-hidden="true"></i> </button></a>
 
 		</div>
