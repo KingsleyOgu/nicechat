@@ -851,7 +851,7 @@ $_SESSION['callFrom'] = "index.php";
 	</div>
 	<div class="content">
 		<div class="contact-profile">
-			<a href="view-profile.php"><img src="dist/img/avatar33.png" alt="" />
+			<a href="view-profile.php"></span><img src="dist/img/avatar33.png" alt="" />
 			<p>Harvey Specter</p></a> <!-- wrap contact image and name inside view profile link -->
 			<div class="social-media">
         <div class="communicate">
@@ -865,6 +865,8 @@ $_SESSION['callFrom'] = "index.php";
         <div class="dropbtn"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
 
         <div class="dropdown-content" style="line-height: 2; font-size: 15px;">
+        <a href="view-profile.php">View Contact</a>
+        <a href="#">Media</a>
           <a href="#">Archive Chat</a>
           <a href="#">Delete Chat</a>
           <a href="#">Add File</a>
