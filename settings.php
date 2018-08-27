@@ -40,6 +40,7 @@ $_SESSION['callFrom'] = "index.php";
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
   <link rel="stylesheet" type="text/css" href="dist/css/left-arrow.css" />
+  <link rel="stylesheet" type="text/css" href="dist/css/tooltip.css" />
   <style class="cp-pen-styles">
       body {
         display: flex;
@@ -757,12 +758,7 @@ $_SESSION['callFrom'] = "index.php";
 	<!-- sidepanel -->
 <?php include_once("sidepanel.php"); ?>
 
-		<div id="bottom-bar">
-      <button id="addcontact"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i> </button>
-            <a href="settings.php"><button id="settings"><i class="fa fa-cog fa-spin" aria-hidden="true"></i> </button></a>
-            <a href="settings.php"><button id="settings"><i class="fa fa-cog fa-spin" aria-hidden="true"></i> </button></a>
-            <a href="settings.php"><button id="settings"><i class="fa fa-cog fa-spin" aria-hidden="true"></i> </button></a>
-		</div>
+
 	</div>
 	<div class="content">
 
