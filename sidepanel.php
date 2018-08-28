@@ -2,7 +2,7 @@
 		<div id="profile">
 			<div class="wrap">
 				<img id="profile-img" src="dist/img/avatar33.png" class="online" alt="" />
-				<p><?php echo $name; ?></p>
+				<a href="profile.php"><p style="cursor:pointer;"><?php echo $name; ?></p></a>
 				<i class="fa fa-chevron-down expand-button" aria-hidden="true"></i>
 				<div id="status-options">
 					<ul>

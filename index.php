@@ -39,7 +39,7 @@ $_SESSION['callFrom'] = "index.php";
   <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
-  <link rel="stylesheet" type="text/css" href="dist/css/tooltip.css" />
+  <link rel="stylesheet" type=text/css href="dist/css/chatui.css" />
   <style class="cp-pen-styles">
       body {
         display: flex;
@@ -637,10 +637,11 @@ $_SESSION['callFrom'] = "index.php";
       #frame .content .messages ul li p {
         display: inline-block;
         padding: 10px 15px;
-        border-radius: 20px;
+        border-radius: 20px; 
         max-width: 205px;
         line-height: 130%;
       }
+
       @media screen and (min-width: 735px) {
         #frame .content .messages ul li p {
           max-width: 300px;
@@ -879,35 +880,35 @@ $_SESSION['callFrom'] = "index.php";
 			<ul>
 				<li class="sent">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!</p>
+					<p class="sending">How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!</p>
 				</li>
 				<li class="replies">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>When you're backed against the wall, break the god damn thing down.</p>
+					<p class="reply">When you're backed against the wall, break the god damn thing down.</p>
 				</li>
 				<li class="replies">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>Excuses don't win championships.</p>
+					<p class="reply">Excuses don't win championships.</p>
 				</li>
 				<li class="sent">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>Oh yeah, did Michael Jordan tell you that?</p>
+					<p class="sending">Oh yeah, did Michael Jordan tell you that?</p>
 				</li>
 				<li class="replies">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>No, I told him that.</p>
+					<p class="reply">No, I told him that.</p>
 				</li>
 				<li class="replies">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>What are your choices when someone puts a gun to your head?</p>
+					<p class="reply">What are your choices when someone puts a gun to your head?</p>
 				</li>
 				<li class="sent">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>What are you talking about? You do what they say or they shoot you.</p>
+					<p class="sending">What are you talking about? You do what they say or they shoot you.</p>
 				</li>
 				<li class="replies">
 					<img src="dist/img/avatar33.png" alt="" />
-					<p>Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
+					<p class="reply">Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
 				</li>
 			</ul>
 		</div>
